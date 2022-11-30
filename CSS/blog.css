@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*making the navigation link into the center*/
+.nav-links{
+    flex: 5;
+    text-align: center;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;  /*it sets the height and width*/
+    padding: 9px 13px;  /*helps to create the boarder*/
+    position: relative;
+}
+.nav-links ul li a{
+    color: #566e8f ; /*setting up the color*/
+    font-size: 20px; /* setting up the font size*/
+}
+/*making hover effect*/
+.nav-links ul li a:hover{
+    background: yellow;
+    color: #000;
+}
+.container .first-post a:visited{ /*making black when the curshor will be there*/
+    color: black ;
+}
+.first-post{
+    
+    text-decoration-color: white; /*making color white*/
+    text-align: center;  /*putting it in center*/
+    margin-bottom: 40px; /*placing its margin */
+    cursor: pointer; 
+     
+}  
+
+.first-post:hover{
+    background: black; /*using hover effect*/
+    
+
+}
+.second-post{
+    text-decoration-color: white; /*making color white*/
+    text-align: center;  /*putting it in center*/
+    margin-bottom: 20px; /*placing its margin */
+    cursor: pointer;
+
+}
+.second-post:hover{ /*using hover effect*/
+    background: black;
+    
+}
+.fa {
+    padding: 20px; /*making space for the icons*/
+    font-size: 20px; /*font size of the icons*/
+    width: 30px;
+    text-align: center;
+    
+    margin: 5px 2px;
+  
+}
+.fa:hover {
+    opacity: 0.7; /*using hover effect*/
+}
+.fa-facebook{ /*making facebook icon into blue*/
+    background: blue; 
+    color: white;
+}
+.fa-twitter { /*making facebook icon into lightblue*/
+    background: #55ACEE;
+    color: white;
+ 
+}
+.fa-instagram{ /*making facebook icon into blue*/
+    background: #125688;
+    color: white;
+}
+
+
+    

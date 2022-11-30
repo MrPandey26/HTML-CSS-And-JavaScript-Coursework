@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*making the navigation link into the center*/
+.nav-links{
+    flex: 5;
+    text-align: center;
+    
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block; /*it sets the height and width*/
+    padding: 9px 13px; /*helps to create the boarder*/
+    position: relative;
+}
+.nav-links ul li a{
+    color: #566e8f; /*setting up the color*/
+    font-size: 20px; /* setting up the font size*/
+}
+/*making hover effect*/
+.nav-links ul li a:hover{
+    background: yellow;
+    color: #000;
+}
+/* setting up the heading to the center, making its color black and uplifting its margin*/
+.text{
+    text-align: center;
+    width: 100%;
+    color: black;
+    top: 10%;
+    position: absolute;
+}
+
+/*making the icons to the left*/
+.icon{
+    float: left;
+    
+}
+

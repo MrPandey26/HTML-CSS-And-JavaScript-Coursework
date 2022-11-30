@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+/*making the navigation link into the center*/
+.nav-links{
+    flex: 5;
+    text-align: center;
+    
+    
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 9px 13px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #566e8f;
+    font-size: 20px;
+}
+/*using hover effect*/
+.nav-links ul li a:hover{
+    background: yellow;
+    color: #000;
+}
+
+
+
+/*Button*/
+  .btn:hover{
+      background: red;
+  }
+
+
+.text-box{
+    text-align: center; /*making the text into the center*/
+    width: 70%;
+    top: 10%; /*making the text in the top*/
+    position: absolute;
+}
+.Form{
+    text-align: center; /*making the form into the center*/
+    margin-top: 50px; /*setting up the margin*/
+}
+/*making the icons placing in the right place*/
+.fa { 
+    padding: 20px; 
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    
+    margin: 5px 2px;
+  
+}
+/*uses hover effect*/
+.fa:hover {
+    opacity: 0.7;
+}
+/*setting the facebook icon into blue*/
+.fa-facebook{
+    background: blue;
+    color: white;
+}
+/*setting the twitter icon into lightblue*/
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+ 
+}
+/*setting the facebook icon into blue*/
+.fa-instagram{
+    background: #125688;
+    color: white;
+}

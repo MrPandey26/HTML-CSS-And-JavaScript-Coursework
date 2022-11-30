@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width,">
+        <meta http-equiv="refresh" content="15">
+        <meta name="Author" content="Adarsha Pandey">
+        <!--linked for Research section to the External CSS-->
+        <title>
+            Research Section 
+        </title>
+        <link rel="stylesheet" href="../CSS/research.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                background-color: #a0a398;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        
+        <section class="header">
+            <nav>
+                <div class="nav-links"> <!--hyperlinked to the another webpage-->
+                    <ul>
+                        <li><a href="../Assisgnment.html"> HOME </a></li>
+                        <li><a href="blog.html"> BLOG </a></li>
+                        <li><a href="CV.HTML"> CV </a></li>
+                        <li><a href="contact.html"> CONTACTS </a></li>
+                        <li><a href="Research.html">RESEARCH</a></li>
+                    </ul> 
+             </div> 
+           </nav> 
+       </section>
+       <h1 id="hello" style="color: rebeccapurple; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> 
+          RESEARCH SECTION <!--setting the header of the webpage and inline CSS has been used -->
+        </h1>
+        <button onclick="change()">Change Style</button>
+        <br>
+        <br>
+       <div class="Research_section">
+           <table width="100%"> <!--creating a table-->
+               <tr align="center"> <!--creating a row-->
+                   <th style="color: lightblue; font-size: 25px;">
+                       Research Webpage
+                    </th>
+                    <th style="color: lightgreen; font-size: 25px;">
+                        Explanation
+                    </th>
+                    <th style="color: lightcyan; font-size: 25px;">
+                        My Webpage
+                    </th>
+                   
+                </tr>
+                <tr align="center"> <!--creating a another row-->
+                    <td>
+                        <img src="../images/research cv.jpg" width="500px" height="500px"> <!--image has been inserted-->
+                    </td> 
+                    <td style="color: whitesmoke; font-size: 20px;"> 
+                        I have made my CV by taking reference which is in the left hand side of explanation. In this CV i have used icons and 
+                        div tag to separte the CV.
+                        
+
+                    </td>
+                    <td>
+                        <img src="../images/researchmycv.png" width="500px" height="500px"> <!--image has been inserted-->
+                    </td>
+                </tr>
+                <br>
+                <br>
+                <br>
+
+                <tr align="center">
+                    <td>
+                        <img src="../images/gadgete.png" width="500px" height="500px"> <!--image has been inserted-->
+                    </td>
+                    <td style="color: whitesmoke">
+                        In this left fig i liked its navigation bar which i have applied in my website.
+
+                    </td>
+                    <td>
+                        <img src="../images/welcomenav.png" width="500px" height="500px"> <!--image has been inserted-->
+                    </td>
+
+                </tr>
+                <tr align="center">
+                    <td>
+                        <img src="../images/socialicon.png" width="200px" height="400px"> <!--image has been inserted-->
+                    </td>
+                    <td style="color: whitesmoke; font-size: 20px;"> 
+                        In this section i have used social media icons.
+
+                    </td>
+                    <td>
+                        <img src="../images/researchmysocial.png" width="300px" height="400px"> <!--image has been inserted-->
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <img src="../images/researchfooter.png"  width="500px" height="80px" > <!--image has been inserted-->
+                    </td>
+                    <td style="color: whitesmoke">
+                        In this left fig of the explanation column i really liked its footer section  especially and social media icons.
+
+                    </td>
+                    <td>
+                        <img src="../images/resachfooter2.png" width="500px" height="80px"> <!--image has been inserted-->
+                    </td>
+                </tr>
+
+            </table>
+       </div>
+       <br>
+       <div class="footer"> <!--using icon it is hyperlinked to the top of the webpage-->
+         <a href="Research.html" class="fa fa-arrow-up" style="font-size: 40px; color: red;"></a>
+       </div>
+       <br>
+       <script>//using Internal JavaScript to change the colour of the header
+           function change(){
+               var element = document.getElementById("hello");
+               element.innerHTML = "RESEARCH SECTION";
+               element.style.color = "Green";
+           }
+       </script>
+
+    </body>
+</html>

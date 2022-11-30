@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background-color: lightgrey; /*making color into loghtgrey*/
+    display: flex;
+    justify-content: center; /*making everything into center*/
+    min-height: 100vh;
+    
+}
+/*making the navigation link into the center*/
+nav-links{
+    flex: 15; 
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block; /*it sets the height and width*/
+    padding: 9px 13px; /*helps to create the boarder*/
+    position: relative;
+    
+}
+.nav-links ul li a{
+    color: #566e8f; /*setting the color*/
+    font-size: 20px;
+    
+
+}
+/*using hover effect*/
+.nav-links ul li a:hover{
+    background: yellow;
+    color: #000;
+}
+
+
+.Resume{
+    
+    position: relative;
+    width: 60%;
+    height: 100%;
+    min-height: 100px;
+    background: white;
+    display: grid; /*making layout*/
+    grid-template-columns: 1fr 2fr; /*gives the column in a grid*/
+    max-width: 900px;
+    margin-top: 60px;
+    margin-left: -610px;   /*setting the margin to the left*/
+}
+.Profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Profile h2{
+    color: white;
+    text-transform: uppercase; /*making the text in upper case*/
+    text-align: left; /*pushing to the left*/
+}
+
+.Resume  .Left-side{
+    position: relative;
+    background: lightskyblue;
+    padding: 40px;
+
+}
+.Resume .Right-side{
+    position: relative;
+    padding: 50px;
+}
+
+
+

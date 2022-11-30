@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="contact">
+        <link rel="stylesheet" href="../CSS/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--linking the Contact form with external CSS-->
+        <title> Contact Form</title> <!--title was created-->
+        <style>
+            body{
+                 background-image: url(../images/bench.jpg);
+                 background-attachment: fixed;
+                 background-size: 100% 100%;
+                }
+      </style>
+        
+ 
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links"> <!--hyperlinked with another web page-->
+                    <ul>
+                        <li><a href="../Assisgnment.html">HOME</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="CV.HTML">CV</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                        <li><a href="Research.html">RESEARCH</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+    
+        <section class="text-box">
+            <h1  style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> CONTACT US</h1> <!--creating header section-->
+
+
+        </section>
+        <div class="contact-form">
+            <div class="Form"> <!--creating a form-->
+                <form onsubmit="validation()" name="messageform">
+                    <p style="color: yellow;">First Name:<br>
+                    <input type="text" name="firstname"> <!--it is a field where the user can enter data-->
+                    <br>
+                    <br>
+                    Last Name:<br>
+                    <input type="text" name="lastname"> <!--it is a field where the user can enter data-->
+                    <br>
+                    <br>
+                    Phone Number:<br> <!--breaking the line-->
+                    <input type="text" name="Number" placeholder="+977"> <!--it is a field where the user can enter data-->
+                    <br>
+                    <br>
+                    Email Address:<br>
+                    <input type="text" name="Email" placeholder="@gmail.com"><!--it is a field where the user can enter data-->
+                    <br>
+                    <br>
+                    Password:<br>
+                    <input type="password" name="password"><!--it is a field where the user can enter data-->
+                    <br>
+                    <br>
+                    <br>
+                    <b>Message:</b><br>
+                    <textarea name="message" rows="10" cols="40" >
+    
+                    </textarea>
+                    <br>
+                    </p>
+                    <input type="submit" class="btn" value="Conform"> <!--submitting the information-->
+    
+    
+    
+    
+                </form>
+         </div>
+          
+        </div> <br>
+       
+        <script>//Internal Javascript is used 
+            function validation()
+            {
+                var fname=document.forms["messageform"] ["firstname"].value;
+                var lname=document.forms["messageform"] ["lastname"].value;
+                var Number=document.forms["messageform"] ["Number"].value;
+                var Email=document.forms["messageform"] ["Email"].value;
+                var password=document.forms["messageform"] ["password"].value;
+                var message=document.forms["messageform"] ["message"].value;
+                if (fname==""|| lname== "" || Number == "" || Email =="" || password == "" || message == "")
+                {
+                    alert("Empty fields found");
+                }
+                else{
+                   alert("Thanks for your response");
+                }
+
+            }
+
+        </script>
+        <footer>
+            <table width="100%"> <!--table is created-->
+                <tr>
+                    <th>
+                        <div id="footer_portion" style="color:white">
+                            <p style="font-size: 15px" >@Adarsha Pandey, Copyright  2021</p>
+                            
+
+                        
+                        </div>
+                    </th>
+                    <th>
+                        <div>
+                            <ul class="icons" style="float: right;"> <!--icons for the social media and it is hyperlinked to the respective accounts-->
+                                <a href="https://www.facebook.com/adarsha.pandey.3/" class="fa fa-facebook" style="font-size: 20px" target="_blank" ></a>
+                                <a href="https://twitter.com/adarsha_pandey7?s=07&fbclid=IwAR3J3TSJlW-b5A22tZBJxx7aGPteYpwn8MlHk_PQb9zIf4WvNihRjw35-BU" class="fa fa-twitter" style="font-size: 20px" target="_blank"></a> 
+                                <a href="https://www.instagram.com/adarshapandey/" class="fa fa-instagram" style="font-size: 20px" target="_blank"></a>
+                                <a href="contact.html" class="fa fa-arrow-up" style="font-size: 20px; color: skyblue;">Top</a>
+
+                            </ul>
+                        </div>
+                   </th> 
+                </tr>
+               
+            </table>
+            
+            
+        </footer> 
+
+    </body>
+
+</html> 
